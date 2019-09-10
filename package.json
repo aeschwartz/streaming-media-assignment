@@ -1,0 +1,27 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "A server that streams media",
+  "main": "./src/server.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeschwartz/streaming-media-assignment.git"
+  },
+  "author": "Andrew Schwartz",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/aeschwartz/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/aeschwartz/streaming-media-assignment#readme"
+}
